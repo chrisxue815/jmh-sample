@@ -18,6 +18,12 @@ dependencies {
 }
 
 jmh {
+    // The full list of configuration options can be found here:
+    // https://github.com/melix/jmh-gradle-plugin
+
     // Uncomment to run specific benchmarks
     // include = ['SampleBenchmark']
+
+    // Uncomment to collect GC metrics
+    // profilers = ['gc']
 }
